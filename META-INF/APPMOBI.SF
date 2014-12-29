@@ -1,0 +1,184 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: SHCGxzzEaMI6zkXjfCtYUEmyHUA=
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: hxsmbnOjicLIuozNBhM/+caBP6g=
+
+Name: assets/www/css/index/styles/d-margins -- margins.less
+SHA1-Digest: PTEX4njG4wQ8sMvGWkhOCPaEYIE=
+
+Name: res/xml/config.xml
+SHA1-Digest: o2Q3o+FGEcKccO4W7GjyU4nrmOE=
+
+Name: assets/www/app_framework/2.1/css/af.ui.min.css
+SHA1-Digest: hd+Uhoc7S0mzF9OeDYRTLswkB/c=
+
+Name: assets/www/css/index/styles/default-button-bar-height -- height.
+ less
+SHA1-Digest: 2q5MBOcGcdQoOA3Vn8hFwvYXd/c=
+
+Name: assets/www/css/index/styles/row-height-1 -- row_height.less
+SHA1-Digest: yPfSI7sVesWQAcDSdm32qTOm4Sw=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: pgEItzOCOvcy4M22wawzdn8AvEc=
+
+Name: assets/www/css/index/uib-button-bar.less
+SHA1-Digest: kaZnH0YL4cHbjmTr12BGtzEDaMk=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: I+SEqsBnwMDqxwQwabdUcjyZR9o=
+
+Name: assets/www/css/index/uib_row_2.less
+SHA1-Digest: C/qitVc2paR0LzXf44jqknRpgZw=
+
+Name: assets/www/app_framework/appframework.js
+SHA1-Digest: AOMppueIgfes3rmXk2LjonrkqAQ=
+
+Name: assets/www/images/X.png
+SHA1-Digest: DnU4VTckqPibHwR4ElywOK48O84=
+
+Name: assets/www/plugins/org.apache.cordova.splashscreen/www/splashscr
+ een.js
+SHA1-Digest: 9G4prLJMG9Hiv4uiH+eIh8C/vF8=
+
+Name: assets/www/app_framework/css/icons.min.css
+SHA1-Digest: YQBoDHzIq7ntW5UxdxdVWtKg6fo=
+
+Name: assets/www/css/index/styles/default-graphic-text -- text.less
+SHA1-Digest: 2P+U+jY7gHPSBvhE/6fuAjueeQY=
+
+Name: assets/www/app_framework/appframework.ui.js
+SHA1-Digest: 6GxFlTMk9valo+voWLYFTu7Ja9A=
+
+Name: assets/www/app_framework/css/af.ui.min.css
+SHA1-Digest: dCf02Qo/81Gzt2JSuickHcXyBeo=
+
+Name: assets/_where-is-www.txt
+SHA1-Digest: XyoRHUmqQWhFqkB6tnerFbQr+4I=
+
+Name: assets/www/css/index/index_main.less
+SHA1-Digest: POZByUYw/riIXIiqncRM174Dz/s=
+
+Name: assets/www/js/index.js
+SHA1-Digest: LQoh4HOcUVbfQRTdZoNYAEViyzo=
+
+Name: assets/www/css/index/styles/row-height-2 -- row_height.less
+SHA1-Digest: Cigd+74Iwm2sT6gR33MuaZJwbuI=
+
+Name: assets/www/cordova.js
+SHA1-Digest: XUVUwO63jRHdSRFYk2VzPsL89Ho=
+
+Name: assets/www/plugins/org.apache.cordova.device/www/device.js
+SHA1-Digest: zb64XC0pcWmF36ykhdU7oz+G2Zw=
+
+Name: assets/www/media_button_bar/css/media_button_bar.css
+SHA1-Digest: MelqRgf+RjVHRJxULpqW5xhFmNI=
+
+Name: assets/www/index.html
+SHA1-Digest: 1KX+VVEBqjRYOr8dirOSJ8TmEds=
+
+Name: assets/www/css/index_main.less.css
+SHA1-Digest: YUnZX11ePhwEDQO7UeZ8JC8DbYk=
+
+Name: assets/www/css/index/styles/default-image-sizing -- graphic_imag
+ e_sizing.less
+SHA1-Digest: I/W5WxauJz6ra1H+eXfKhrQ31w8=
+
+Name: assets/www/css/index/styles/active-graphic-button -- active.less
+SHA1-Digest: vLX5SHiMnphIaXN7JsBdELGLtNI=
+
+Name: assets/www/css/index/styles/hover-graphic-button -- hover.less
+SHA1-Digest: 9r0PjOMS2GREdx6UnLnvAvE7bbA=
+
+Name: assets/www/app_framework/2.1/appframework.js
+SHA1-Digest: 2DYhJyg0n7wUCV2ojXFOZaQiwnQ=
+
+Name: assets/www/css/index/styles/default-graphic-button -- default.le
+ ss
+SHA1-Digest: 5/FqX1Yf9BqgewU00prKXwwjhyA=
+
+Name: assets/www/css/index/styles/grid-pad -- padding.less
+SHA1-Digest: FPZ553L5t02suIWsIxsdY9H+8V4=
+
+Name: assets/www/css/index.css
+SHA1-Digest: N6YHp1iN/uYTIqkQjm7UYE+rVzU=
+
+Name: resources.arsc
+SHA1-Digest: cD5Ks2wVM7Ap2Zhj8/BzBZ7lkow=
+
+Name: AndroidManifest.xml
+SHA1-Digest: yVXDmUR7VYfSORB9UjOjzKczQvY=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: YK5vVHXnrWkBUKYiYlRwAZZ/zWU=
+
+Name: assets/www/xdk/init-dev.js
+SHA1-Digest: 5TgCfbQbKQseqXZ+HhZNpyJMFSA=
+
+Name: assets/www/css/index/styles/default-graphic-sizing -- graphic_si
+ zing.less
+SHA1-Digest: Ycy9MPV89m7XTFU4FIa7rr+V8lY=
+
+Name: assets/www/css/index/afui-button-group-no-dmargins.less
+SHA1-Digest: eAf3QWE0vEwCsh/mcCnO6u7mUvc=
+
+Name: assets/www/css/index/af-label-position.less
+SHA1-Digest: qM/3YRJ93TAzzDxCcrmYXSXq4G8=
+
+Name: assets/www/css/index/afui-header.less
+SHA1-Digest: 8NntzJt3rIOpBiND19QTwNqGhh0=
+
+Name: assets/www/js/app.js
+SHA1-Digest: J5t52QD4DiiTMCjh6epJJfhiMVs=
+
+Name: assets/www/images/Arrow.png
+SHA1-Digest: OQoj9PhxpzougnU79S/weQtZJe8=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: ILtevW7iM+NOQc5r/erwvaQ8m9U=
+
+Name: assets/www/images/Strabburg.jpg
+SHA1-Digest: sCBhG9KVRvYeGtwkVxiZTBrdygM=
+
+Name: assets/www/images/Checkmark.png
+SHA1-Digest: Pwg77zd38j5UjBN5z8G2cr4F/Yo=
+
+Name: classes.dex
+SHA1-Digest: dcR+xVwEC35pZudRbZIzseapdsA=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: LTDbXr3OQqSr8iSWSgN/UEp76sQ=
+
+Name: assets/www/app_framework/2.1/css/icons.min.css
+SHA1-Digest: g6Pyu6IEnSxkdGQibg2V7lp1wUg=
+
+Name: assets/www/js/init-app.js
+SHA1-Digest: 1h/4Hn6Y75jw2CKfoQEvmBVkEgU=
+
+Name: res/drawable/icon.png
+SHA1-Digest: uvuielAB8iUnMLObHEXVenPOa+o=
+
+Name: assets/www/css/index/defaults.less
+SHA1-Digest: +RLiQVHCmXj1jllNHrHkjbIjy+M=
+
+Name: assets/www/app_framework/pageChangeRepeater.js
+SHA1-Digest: +R2lIAmWcnbigIpRGdtEASot5ro=
+
+Name: assets/www/images/Exclaim.png
+SHA1-Digest: NxbUXXyHo8YYmNszySo7A3ertC0=
+
+Name: assets/www/css/index/uib_row_1.less
+SHA1-Digest: nh8a+tbnuyuPh642xSPApOkzy0Y=
+
+Name: assets/www/css/app.css
+SHA1-Digest: DV34AZ5KT16fChicSDUV5IoHWfk=
+
+Name: assets/www/app_framework/2.1/appframework.ui.js
+SHA1-Digest: k9WECD1KhOW1dgjIbx7ynfHj5mQ=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: XfAbtw3zuMWQbGTvbbw/KIngfT0=
+
+Name: assets/www/css/index/af-radio-checkbox.less
+SHA1-Digest: tqE10FtqPrUDI5JRUjJ1lAG73x8=
+

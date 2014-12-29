@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="media_button_bar/css/media_button_bar.css">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="app_framework/2.1/css/af.ui.min.css">
+		<link rel="stylesheet" type="text/css" href="app_framework/2.1/css/icons.min.css">
+		<title>Blank App Designer Project Template</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+		<!--
+  * The "meta viewport" tag (below) helps your app size appropriately to a device's screen.
+  * Note that the meta viewport approach is being phased out in favor of the @viewport CSS rule.
+  * For a quick overview of both, see this article:
+  *   http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag
+  * To see what happens, try the app on a real device with and without a "meta viewport" tag.
+-->
+
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+
+		<style>
+			/* following three (cascaded) are equivalent to above three meta viewport statements */
+			            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
+			            /* see http://dev.w3.org/csswg/css-device-adapt/ */
+			                @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
+			                @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
+			                /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+		</style>
+
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+
+		<!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
+		<!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
+		<!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+
+		<!-- Most third-party libraries should go here. References (below) are just examples to give you the general idea... -->
+		<!-- <script src="lib/mc/hammer.js"></script> -->
+		<!-- <script src="lib/ft/fastclick.js"></script> -->
+
+		<script src="intelxdk.js"></script>
+		<!-- phantom library, needed for XDK "legacy" container api calls -->
+		<script src="cordova.js"></script>
+		<!-- phantom library, needed for Cordova api calls -->
+		<script src="xhr.js"></script>
+		<!-- phantom library, needed for XDK "legacy" container CORS -->
+
+		<script src="js/app.js"></script>
+		<!-- for your event code, see README and file comments for details -->
+		<script src="js/init-app.js"></script>
+		<!-- for your init code, see README and file comments for details -->
+		<script src="xdk/init-dev.js"></script>
+		<!-- normalizes device and document ready events, see file for details -->
+		<!--            
+            You may substitute jQuery for the App Framework selector library.
+            See http://app-framework-software.intel.com/documentation.php#afui/afui_jquery
+        -->
+		<script type="application/javascript" src="app_framework/2.1/appframework.js"></script>
+		<script type="application/javascript" src="app_framework/2.1/appframework.ui.js" data-ver="1"></script>
+	</head>
+
+	<body id="afui">
+
+		<!-- IMPORTANT: Do not include your weinre script tag as part of your release builds! -->
+		<!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
+		<!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+		<header class="wrapping-col wrap-element uib_w_1 with-back" data-uib="app_framework/header" data-ver="2" id="head"><a class="button backButton">Back</a>
+			<h1><font size=5>calculator</font></h1>
+			<pre> </pre>
+		</header>
+		
+		<div id="content" class="uwrap">
+			<div class="upage vertical-col left panel" id="mainpage" data-header="head" data-footer="none">
+				<font size=7 color="black"><pre id="myshow" style="background-color:#f0f0f0;" >  ​</pre>​</font>
+				<font size=6>
+				<div class="button-grouped flex widget uib_w_3 d-margins" data-uib="app_framework/button_group" data-ver="1">
+					<a class="button widget uib_w_4" data-uib="app_framework/button" data-ver="1" onclick="num_button(1)">1</a>
+
+					<a class="button widget uib_w_5" data-uib="app_framework/button" data-ver="1" onclick="num_button(2)">2</a>
+					<a class="button widget uib_w_6" data-uib="app_framework/button" data-ver="1" onclick="num_button(3)" >3</a>
+					<a class="button widget uib_w_8" data-uib="app_framework/button" data-ver="1" onclick="char_button('+')" >+</a>
+				</div>
+				<div class="button-grouped flex widget uib_w_7 d-margins" data-uib="app_framework/button_group" data-ver="1">
+					<a class="button widget uib_w_9" data-uib="app_framework/button" data-ver="1" onclick="num_button(4)">4</a>
+					<a class="button widget uib_w_10" data-uib="app_framework/button" data-ver="1" onclick="num_button(5)" >5</a>
+					<a class="button widget uib_w_12" data-uib="app_framework/button" data-ver="1" onclick="num_button(6)" >6</a>
+					<a class="button widget uib_w_13" data-uib="app_framework/button" data-ver="1" onclick="char_button('-')">-</a>
+				</div>
+
+				<div class="button-grouped flex widget uib_w_15 d-margins" data-uib="app_framework/button_group" data-ver="1">
+					<a class="button widget uib_w_16" data-uib="app_framework/button" data-ver="1" onclick="num_button(7)" >7</a>
+					<a class="button widget uib_w_17" data-uib="app_framework/button" data-ver="1" onclick="num_button(8)">8</a>
+					<a class="button widget uib_w_14" data-uib="app_framework/button" data-ver="1" onclick="num_button(9)" ">9</a>
+					<a class="button widget uib_w_18" data-uib="app_framework/button" data-ver="1" onclick="char_button('*')" >*</a>
+				</div>
+				<div class="button-grouped flex widget uib_w_19 d-margins" data-uib="app_framework/button_group" data-ver="1">
+					<a class="button widget uib_w_20" data-uib="app_framework/button" data-ver="1" onclick="num_button(0)" >0</a>
+					<a class="button widget uib_w_21" data-uib="app_framework/button" data-ver="1" onclick="num_button('.')">.</a>
+					<a class="button widget uib_w_24" data-uib="app_framework/button" data-ver="1" onclick="char_button('=')" >=</a>
+					<a class="button widget uib_w_22" data-uib="app_framework/button" data-ver="1" onclick="char_button('/')" >/</a>
+				</div>
+				<div class="button-grouped flex widget uib_w_23 d-margins" data-uib="app_framework/button_group" onclick="char_button('<-')" data-ver="1"><a class="button widget uib_w_26" data-uib="app_framework/button" data-ver="1" style="border-top-right-radius: 6px; border-bottom-right-radius: 6px;">clear</a>
+				</div>
+				</font>
+			</div>
+		</div>
+		<script type="text/javascript">
+			//<![{CDATA{
+			            		                    var state = true;
+													var with_point =false;
+													var is_zero = true;
+													var num = "";
+													var result = 0;
+													var temp= '';
+													var a=0;
+													var my = document.getElementById("myshow");
+													
+													function num_button(val){
+			                                            switch(val){
+			            								case 1: num+='1';temp+='1';break;
+														case 2: num+='2';temp+='2';break;
+														case 3: num+='3';temp+='3';break;
+														case 4: num+='4';temp+='4';break;
+														case 5: num+='5';temp+='5';break;
+														case 6: num+='6';temp+='6';break;
+														case 7: num+='7';temp+='7';break;
+														case 8: num+='8';temp+='8';break;
+														case 9: num+='9';temp+='9';break;
+														case 0: num+='0';temp+='0';break;
+														case '.': 
+														if (temp.indexOf() == -1){
+															num+='.';temp+='.';with_point= true;
+														}
+														break;
+			            								}
+														my.innerHTML=num;
+			                                        }
+													function char_button(char){
+														if(state){
+															if(!num){
+																alert("您不能直接输入运算符！");
+																return;
+															}
+															switch(char){
+																case '+':result=num.valueOf();num+='+';my.innerHTML=num;state=false;a=1;temp='';is_zero=true;with_point=false;break;
+																case '-':result=num.valueOf();num+='-';my.innerHTML=num;state=false;a=2;temp='';is_zero=true;with_point=false;break;
+																case '*':result=num.valueOf();num+='*';my.innerHTML=num;state=false;a=3;temp='';is_zero=true;with_point=false;break;
+																case '/':result=num.valueOf();num+='/';my.innerHTML=num;state=false;a=4;temp='';is_zero=true;with_point=false;break;
+																case '<-':
+																num = num.substring(0,num.length -1);temp = num.valueOf();my.innerHTML=num;
+															}
+														}
+														else{
+															if(temp && char =='='){
+																switch(a){
+																	case 1:num=parseFloat(result)+parseFloat(temp);break;
+																	case 2:num=parseFloat(result)-parseFloat(temp);break;
+																	case 3:num=parseFloat(result)*parseFloat(temp);break;
+																	case 4:num=parseFloat(result)/parseFloat(temp);break;
+																}
+																temp='';
+																my.innerHTML=num;
+																state=true;
+																num = num.toString();
+															}else if(temp && char == '<-'){
+																temp = temp.substring(0,temp.length-1);num = num.substring(0,num.length -1);my.innerHTML=num;
+															}else if(temp == '' && char =='<-'){
+																state= true;
+																if(num.length > result.length){
+																	num = num.substring(0,num.length -1);my.innerHTML=num;
+																}
+																else{
+																	num = num.substring(0,num.length -1);my.innerHTML=num;result/=10;
+																}
+															}else{
+																alert('您不能这样做！请输入数字或者等号！');
+															}
+														}
+													}
+														
+													
+			            	//}]>
+		</script>
+	</body>
+
+</html>
